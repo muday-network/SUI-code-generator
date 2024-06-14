@@ -1,0 +1,2 @@
+[console_scripts]
+generate_sui_contract = sui_code_generator.main:main
