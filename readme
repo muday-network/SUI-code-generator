@@ -1,0 +1,80 @@
+Project Name
+Describe your project briefly here.
+
+Table of Contents
+Overview
+Installation
+Usage
+Generating Smart Contracts
+Adding Functions, Conditionals, and Loops
+Examples
+Templates
+Contributing
+License
+Overview
+Describe the purpose and goals of your project. Mention what the project does, what problem it solves, and any unique features or benefits.
+
+Installation
+Provide instructions on how to install your project. Include prerequisites and step-by-step instructions.
+
+bash
+Copy code
+pip install sui_code_generator
+If there are specific dependencies or considerations (e.g., Python version), mention them here.
+
+Usage
+Explain how to use your command-line tool to generate SUI blockchain smart contracts and modify existing files.
+
+Generating Smart Contracts
+To generate a new smart contract file:
+
+bash
+Copy code
+generate_sui_contract generate <filename>
+Replace <filename> with the desired name of the contract file.
+
+Adding Functions, Conditionals, and Loops
+To add a function to an existing contract file:
+
+bash
+Copy code
+generate_sui_contract add_function <filename> <function_name>
+To add a conditional statement to an existing contract file:
+
+bash
+Copy code
+generate_sui_contract add_conditional <filename>
+To add a loop to an existing contract file:
+
+bash
+Copy code
+generate_sui_contract add_loop <filename>
+Examples
+Provide practical examples of how to use your project with different commands and options.
+
+Example 1: Generating a Token Contract
+bash
+Copy code
+generate_sui_contract generate_token my_token.move
+Example 2: Adding a Function to a Contract
+bash
+Copy code
+generate_sui_contract add_function my_contract.move transfer_ownership
+Example 3: Adding a Conditional Statement to a Contract
+bash
+Copy code
+generate_sui_contract add_conditional my_contract.move
+Example 4: Adding a Loop to a Contract
+bash
+Copy code
+generate_sui_contract add_loop my_contract.move
+Templates
+Describe the templates provided in the templates/ directory. Explain what each template is for and how users can customize them.
+
+Contributing
+Provide guidelines for contributing to your project. Include information on how users can report issues, submit feature requests, or contribute code.
+
+License
+Specify the license under which your project is distributed.
+
+Feel free to adjust the sections and content as per your project's specific details and needs. This README structure should provide a clear and informative guide for users interested in your SUI blockchain smart contract code generator.
