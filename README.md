@@ -1,4 +1,4 @@
-# SuiContractor: Code Generation for Sui Blockchain [under development]
+# SuiContractor: Code Generation tool for Sui Blockchain [under development]
 
 This package generates Sui blockchain smart contract code in the Move programming language.
 
